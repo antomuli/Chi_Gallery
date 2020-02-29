@@ -9,6 +9,7 @@ Chinchillah's Gallery(Chi_Gallery) is a personal gallery application that displa
 ### Author 
 
 Anthony Muli
+mulianthony561@gmail.com
 
 ### Features 
 
