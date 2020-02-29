@@ -82,7 +82,7 @@ class Image(models.Model):
         '''
         return cls.objects.filter(id = id).all()
 
-    @classmethod
+    # @classmethod
     def search_photo_by_category(cls, category):
         '''
         A method to return all photos that are a specific category
