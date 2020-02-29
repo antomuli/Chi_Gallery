@@ -23,7 +23,7 @@ def search_results(request):
 
 
 def get_category(request, category):
-    # category_results = category.objects.all()
+    category_results = category.objects.all()
     location_results = Location.objects.all()
     category_result = Image.objects.filter(category__category_name = category)
     return render(request,'all-photos/photos.html',{'all_images':category_result,'category_results':category_results,'location_results':location_results})
