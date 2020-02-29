@@ -18,7 +18,7 @@ class LocationTestClass(TestCase):
         Location.objects.all().delete()
 
     # Testing instance
-    # def test_instance(self):
+    def test_instance(self):
         '''
         Test to confirm that the object is being instantiated correctly.
         '''
