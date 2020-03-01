@@ -48,6 +48,7 @@ class Image(models.Model):
     category = models.ManyToManyField(category)
     post_date = models.DateTimeField(auto_now_add=True)
     photo = models.ImageField(upload_to = 'photos/')
+    phone_number = models.CharField(max_length = 10,blank =True)
 
     def __str__(self):
         '''
