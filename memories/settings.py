@@ -49,7 +49,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # Application definition
 
 INSTALLED_APPS = [
-    'photos',
+    'photos.apps.PhotosConfig',
     'bootstrap3',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -57,7 +57,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-   ]
+    'django.contrib.sites',
+]
+
+
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
