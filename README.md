@@ -1,6 +1,6 @@
 # Title
 
-Chi_Gallery
+**Chi_Gallery**
 
 ## Description 
 
@@ -8,8 +8,9 @@ Chinchillah's Gallery(Chi_Gallery) is a personal gallery application that displa
 
 ### Author 
 
-Anthony Muli
-mulianthony561@gmail.com
+**Anthony Muli**
+
+**mulianthony561@gmail.com**
 
 ### Features 
 
@@ -22,10 +23,12 @@ Click on view image to expand a photo
 Search for a photo by category e.g. outdoor, photoshoot 
 
 ### Specifications 
-| Behavior | Input | Output | | ——————- | —————————– | —————————– | | View all posted photos | Hover over a
-photo | Shown details about the photo | Details about the photo | Click on Copy Link | Pop up that shows that the image link has
-been copied appears | | Details about the photo | Click on View Image | Photo expands | | Search in the search field | Input
-keywords to be searched then press ENTER | Search page is loaded and displays with the searched results | 
+| Behavior | Input | Output | 
+| -------- | ----- | ------ |
+| View all posted photos | Hover over a photo | Shown details about the photo 
+| Details about the photo | Click on Copy Link | Pop up that shows that the image link has been copied appears | 
+| Details about the photo | Click on View Image | Photo expands | 
+| Search in the search field | Input keywords to be searched then press ENTER | Search page is loaded and displays with the searched results | 
 
 #### Getting started 
 Prerequisites 
@@ -55,8 +58,13 @@ $ python3.6 manage.py runserver
 To run the tests for the class file: 
 $ python3.6 manage.py test photos
 
+#### CODEBEAT
+
+[![codebeat badge](https://codebeat.co/badges/8dd34843-e158-4631-b105-fcffde89d879)](https://codebeat.co/projects/github-com-antomuli-chi_gallery-master)
+
 ###### Technologies Used 
-Python3.6
+Python3.6Chinchillah's Gallery(Chi_Gallery) is a personal gallery application that displays my photos for other people to see just as one of the way of building social intelligence.! You can visit the live site on **'https://whispering-temple-04935.herokuapp.com'** 
+
 Django
 HTML
 Bootstrap 
