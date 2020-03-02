@@ -20,6 +20,8 @@
                 <h3 class="text-white">{{photo.image_name}}</h3>
                 <h5 class="text-white">Location: {{photo.location}}</h5>
                 <hr>
+                <img src="{{photo.photo.url}}">
+
 
                 <p class="text-white">{{photo.image_desc}}</p>
 
@@ -27,9 +29,8 @@
                     class="hidden">
                 <div class="top">
                     <button class="btn btn-primary" onclick="CopyFunction()">Copy Link</button>
-                    <img src="{{photo.photo.url}}">
-
-                    <!-- <a class="fancybox btn btn-custom" rel="gallery" href="{{photo.photo.url}}">View Image</a> -->
+                   
+                    <a class="fancybox btn btn-custom" rel="gallery" href="{{photo.photo.url}}">View Image</a>
                 </div>
             </div>
         </div>
