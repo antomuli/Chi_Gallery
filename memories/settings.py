@@ -49,7 +49,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # Application definition
 
 INSTALLED_APPS = [
-    'photos.apps.PhotosConfig',
+    'photos',
     'bootstrap3',
     'django.contrib.admin',
     'django.contrib.auth',
