@@ -7,7 +7,7 @@ class Location(models.Model):
 
     def __str__(self):
         '''
-        A string representation
+        A string representation 
         '''
         return self.location_name
 
@@ -99,8 +99,3 @@ class Image(models.Model):
         locations = cls.objects.filter(location__location_name__icontains=search_term)
         return locations
 
-class tags(models.Model):
-    name = models.CharField(max_length =30)
-
-    def __str__(self):
-        return self.name
