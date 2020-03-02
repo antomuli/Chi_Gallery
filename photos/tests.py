@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import Location, category, Image
+from .models import Location, category, Image, tags
 
 # Create your tests here.
 class LocationTestClass(TestCase):
@@ -46,8 +46,8 @@ class LocationTestClass(TestCase):
         '''
         Method to check if we can display all saved locations
         '''
-        mombasa = Location(location_name='Mombasa')
-        mombasa.save_location()
+        machakos = Location(location_name='Machakos')
+        machakos.save_location()
         locations = Location.objects.all()
         self.assertTrue(len(locations), 2)
 
