@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    font-size: 28px;
+    font-family: 'Acme';
    }
 
    *:before,
