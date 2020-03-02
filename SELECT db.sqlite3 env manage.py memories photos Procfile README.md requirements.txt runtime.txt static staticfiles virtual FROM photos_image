@@ -1,0 +1,19 @@
+                      List of relations
+ Schema |            Name            | Type  |     Owner     
+--------+----------------------------+-------+---------------
+ public | auth_group                 | table | moringaschool
+ public | auth_group_permissions     | table | moringaschool
+ public | auth_permission            | table | moringaschool
+ public | auth_user                  | table | moringaschool
+ public | auth_user_groups           | table | moringaschool
+ public | auth_user_user_permissions | table | moringaschool
+ public | django_admin_log           | table | moringaschool
+ public | django_content_type        | table | moringaschool
+ public | django_migrations          | table | moringaschool
+ public | django_session             | table | moringaschool
+ public | photos_category            | table | moringaschool
+ public | photos_image               | table | moringaschool
+ public | photos_image_category      | table | moringaschool
+ public | photos_location            | table | moringaschool
+(14 rows)
+
