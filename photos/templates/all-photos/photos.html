@@ -12,6 +12,7 @@
 
 <div class="container-fluid">
     <div class="row">
+        <p>A moment is equals to memory</p>
         {% for photo in photos %}
         <div class="col-md-3 single_portfolio_text">
             <img src="{{photo.photo.url}}" alt="" class="img-responsive" />
@@ -20,7 +21,7 @@
                 <h3 class="text-white">{{photo.image_name}}</h3>
                 <h5 class="text-white">Location: {{photo.location}}</h5>
                 <hr>
-                <img src="{{photo.photo.url}}">
+                
 
 
                 <p class="text-white">{{photo.image_desc}}</p>
