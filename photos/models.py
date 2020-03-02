@@ -7,7 +7,7 @@ class Location(models.Model):
 
     def __str__(self):
         '''
-        A string representation 
+        A string representation
         '''
         return self.location_name
 
@@ -47,8 +47,7 @@ class Image(models.Model):
     location = models.ForeignKey(Location, on_delete=models.CASCADE)
     category = models.ManyToManyField(category)
     post_date = models.DateTimeField(auto_now_add=True)
-    photo = models.ImageField(upload_to = 'photos/')
-    phone_number = models.CharField(max_length = 10,blank =True)
+    photo = models.ImageField(upload_to = 'photos/', blank=True)
 
     def __str__(self):
         '''
@@ -98,4 +97,3 @@ class Image(models.Model):
         '''
         locations = cls.objects.filter(location__location_name__icontains=search_term)
         return locations
-
