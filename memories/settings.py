@@ -11,6 +11,7 @@ import os
 import django_heroku
 import dj_database_url
 from decouple import config,Csv
+import cloudinary
 
 MODE=config("MODE", default="dev")
 SECRET_KEY = config('SECRET_KEY')
@@ -56,8 +57,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'cloudinary', #add app
 ]
 
+#add app
+cloudinary.config(
+    cloud_name = 'antomuli',
+    api_key = '444986676449757',
+    api_secret = 'tBwWdtSJzNIU4ujIxGQ9JQ3kZP8',
+)
 
 
 SITE_ID = 1
