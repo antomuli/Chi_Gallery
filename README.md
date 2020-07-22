@@ -50,7 +50,7 @@ Create a database and edit the database configurations in settings.py to your ow
 Make migrations 
 $ python manage.py makemigrations photos
 $ python3.6 manage.py migrate 
- To run the application, in your terminal: 
+To run the application, in your terminal: 
 $ python3.6 manage.py runserver
 
 #### Testing the Application 
@@ -77,7 +77,7 @@ Slack Me! @Anthony Muli
 ###### LICENSE AND COPY RIGHT INFO.
 MIT License
 
-Copyright (c) 2020 Chi_Gallery-Anthony
+Copyright (c) 2020 Chi_Gallery-Anthony.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), 
 to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
